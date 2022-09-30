@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DNC</title>
+	<link rel="stylesheet" href="asset/css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="asset/css/slick/slick-style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="asset/css/select2.min.css">
+	<link rel="stylesheet" href="asset/css/style.css">
+	<link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header id="header">
+			<div class="header-wrapper">
+				<div class="header-main">
+					<div class="header-inner container">
+						<div id="logo">
+							<a href="/Tempalte/NDC/index.html" class="flex-col logo">
+								<img width="325" height="58" src="asset/images/logo.png" class="header_logo header-logo" alt="Công ty NDC">
+							</a>
+						</div>
+						<div class="col-left">
+							<div class="top_menu">
+								<ul class="d-flex justify-content-end nav-menu-contact">
+									<li class="menu-item">
+										<a href="#" class="nav-top-link">
+											Góp ý dự thảo
+										</a>
+									</li>
+									<li class="menu-item">
+										<a href="#" class="nav-top-link">
+											Tuyển dụng
+										</a>
+									</li>
+									<li class="menu-item">
+										<a href="#" class="nav-top-link">
+											Lịch công tác
+										</a>
+									</li>
+									<li class="menu-item">
+										<a href="#" class="nav-top-link">
+											Liên hệ
+										</a>
+									</li>
+									<li class="menu-item language-item">
+										<select class="language" style="width: 100px">
+											<option value="vi">Tiếng Việt</option>
+											<option value="en">Tiếng Anh</option>
+										</select>
+									</li>
+								</ul>
+							</div>
+							<div class="main_menu">
+								<ul class="d-flex justify-content-end header-nav header-nav-main">
+									<li class="menu-item mega-menu">
+										<a href="#" class="nav-top-link">
+											Cục biến đổi khí hậu
+											<i class="fas fa-sort-down"></i>
+										</a>
+										<ul class="sub-menu">
+											<li class="menu-item menu-item-has-children">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="#">Giới thiệu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Chức năng nhiệm vụ</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Cơ cấu tổ chức</a>
+													</li>
+													<li class="menu-item lead">
+														<a href="#">Các phòng chuyên môn</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Giảm nhẹ phát thải khí </a>
+													</li>
+													<li class="menu-item">
+														<a href="#">nhà kính và bảo vệ tầng Ô- dôn</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Kinh tế và Thông tin Biến đổi khí hậu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Thích ứng biến đổi khí hậu Phòng Khoa học - Công nghệ</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Hợp tác quốc tế</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Kế hoạch - Tài chính</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Văn phòng</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item menu-item-has-children">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="/Tempalte/NDC/post-achive.html">Tin Tức</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin hoạt động</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Hội nghị COP các bên tham gia</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">UNFCC</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin Dự án - Hợp tác quốc tế</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin hoạt động các địa phương</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin khoa học công nghệ</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin bảo vệ tầng ô - dôn</a>
+													</li>
+													<li class="menu-item lead">
+														<a href="#">Ấn phẩm</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item menu-item-has-children">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="#">Nghiên cứu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Bản tin ô dôn</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Bản tin biến đổi khí hậu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Sách, ấn phẩm</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tài liệu COP</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tài liệu Hội thảo 24/06/2020</a>
+													</li>
+													<li class="menu-item lead">
+														<a href="#">Thư viện</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Hình ảnh</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Videos</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="/Tempalte/NDC/document-legislation-archive.html">Văn bản pháp luật</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item has-children">
+										<a href="#" class="nav-top-link">
+											Dự án
+											<i class="fas fa-sort-down"></i>
+										</a>
+										<ul class="nav-dropdown">
+											<li class="menu-item">
+												<a href="#">Dự án 1</a>
+											</li>
+											<li class="menu-item">
+												<a href="#">Dự án 2</a>
+											</li>
+											<li class="menu-item">
+												<a href="#">Dự án 3</a>
+											</li>
+											<li class="menu-item">
+												<a href="#">Dự án 4</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item has-children">
+										<a href="#" class="nav-top-link">
+											Khoa học công nghệ
+											<i class="fas fa-sort-down"></i>
+										</a>
+										<ul class="nav-dropdown">
+											<li class="menu-item">
+												<a href="#">Item 1</a>
+											</li>
+											<li class="menu-item">
+												<a href="#">Item 2</a>
+											</li>
+											<li class="menu-item">
+												<a href="#">Item 3</a>
+											</li>
+											<li class="menu-item">
+												<a href="#">Item 4</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item">
+										<a href="/Tempalte/NDC/document-legislation-archive.html" class="nav-top-link">
+											Văn bản pháp luật											
+										</a>
+									</li>
+									<li class="menu-item mega-menu">
+										<a href="#" class="nav-top-link">
+											Cơ chế tín chỉ chung - JMC
+											<i class="fas fa-sort-down"></i>							
+										</a>
+										<ul class="sub-menu">
+											<li class="menu-item menu-item-has-children">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="#">Giới thiệu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Chức năng nhiệm vụ</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Cơ cấu tổ chức</a>
+													</li>
+													<li class="menu-item lead">
+														<a href="#">Các phòng chuyên môn</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Giảm nhẹ phát thải khí </a>
+													</li>
+													<li class="menu-item">
+														<a href="#">nhà kính và bảo vệ tầng Ô- dôn</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Kinh tế và Thông tin Biến đổi khí hậu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Thích ứng biến đổi khí hậu Phòng Khoa học - Công nghệ</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Hợp tác quốc tế</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Kế hoạch - Tài chính</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Văn phòng</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item menu-item-has-children">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="#">Tin Tức</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin hoạt động</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Hội nghị COP các bên tham gia</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">UNFCC</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin Dự án - Hợp tác quốc tế</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin hoạt động các địa phương</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin khoa học công nghệ</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin bảo vệ tầng ô - dôn</a>
+													</li>
+													<li class="menu-item lead">
+														<a href="#">Ấn phẩm</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item menu-item-has-children">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="#">Nghiên cứu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Bản tin ô dôn</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Bản tin biến đổi khí hậu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Sách, ấn phẩm</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tài liệu COP</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tài liệu Hội thảo 24/06/2020</a>
+													</li>
+													<li class="menu-item lead">
+														<a href="#">Thư viện</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Hình ảnh</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Videos</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="/Tempalte/NDC/document-legislation-archive.html">Văn bản pháp luật</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item">
+										<a href="#" class="nav-top-link">
+											NDC Việt Nam
+											<i class="fas fa-sort-down"></i>
+										</a>
+									</li>
+									<li class="menu-item search-item">
+										<a href="#" class="nav-top-link icon-seach">										
+											<i class="fas fa-search"></i>
+										</a>
+										<ul class="nav-dropdown nav-dropdown-search">
+											<li class="header-search-form search-form html relative has-icon">
+												<div class="header-search-form-wrapper">
+													<div class="searchform-wrapper ux-search-box relative is-normal">
+														<form role="search" method="get" class="searchform" action="#">
+															<div class="flex-row relative">
+																<div class="flex-col flex-grow"> 
+																	<input type="search" id="woocommerce-product-search-field-0" class="search-field mb-0" placeholder="Tìm kiếm…" value="" name="s" autocomplete="off">
+																</div>
+																<div class="flex-col"> 
+																	<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0"> 
+																		<i class="fas fa-search"></i>
+																	</button>
+																</div>
+															</div>
+														</form>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- END .header-main -->
+		<main id="main" class="tuyen-dung-page-detai tuyen-dung-single">
+			<div id="content" class="content-area">
+				<section class="section_banner_top archive-tuyen-dung">
+					<div class="bg section-bg"></div>
+					<div class="section-content container">
+						<div class="breadcumbs_title col">
+							<h2>TUYỂN DỤNG</h2>
+						</div>
+					</div>
+				</section>
+				<div id="content" class="blog-wrapper blog-single leislation-archive tuyen-dung page-wrapper container">
+					<div class="row align-center">
+						<div class="col-lg-12 col-md-12 core_layout_archive col col-12">
+							<div class="wapper_search_leislation">
+								<form role="search" method="get" class="searchform" action="#">
+									<div class="top_form">										
+										<div class="co_quan">
+											<select class="form-control">
+												<option value="">Chuyên ngành</option>
+												<option value="">Chuyên ngành 1</option>
+												<option value="">Chuyên ngành 2</option>
+											</select>
+										</div>
+										<div class="lv_van_ban">
+											<select class="form-control">
+												<option value="">Vị trí việc làm</option>
+												<option value="">Vị trí 1</option>
+												<option value="">Vị trí 2</option>
+											</select>
+										</div>
+										<div class="type_document">
+											<select class="form-control">
+												<option value="">Nơi làm việc</option>
+												<option value="">Loại 1</option>
+												<option value="">Loại 2</option>
+											</select>
+										</div>
+									</div>
+									<div class="bot_form">
+										<div class="key_search">
+											<input type="text" value="" name="" placeholder="Từ khóa tìm kiếm…">
+										</div>
+										<div class="form-check form-check-inline">											
+											<label class="form-check-label">Còn hạn ứng tuyển
+                                               <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked="checked">
+                                               <span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="form-check form-check-inline">											
+											<label class="form-check-label">Tất cả
+												<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+												<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="buton_search_leislation">
+											<button type="button" class="btn btn-primary">Tìm kiếm</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="content_single_tuyenDung">
+								<header class="entry-header">
+									<div class="block_title">
+										<h1 class="title_post">Thông báo tuyển dụng công chức làm việc tại Sở Tài nguyên và Môi trường thành phố Hồ Chí Minh</h1>
+									</div>
+									<div class="block_isocal">
+										<div class="date">Jun 03, 2021</div>
+										<div class="share">
+											<span>Chia sẻ: </span>
+                                            <ul class="list_isocal">
+                                            	<li class="item facebook"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                            	<li class="item twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            	<li class="item instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+										</div>
+									</div>
+									<div class="des_td">
+										Bộ Ngoại giao thông báo tổ chức thi tuyển công chức làm việc tại<br>Sở Ngoại vụ thành phố Hồ Chí Minh với các thông tin cụ thể như sau:
+									</div>
+								</header>
+								<div class="content-tuyen-dung">
+									<h4 style="margin-bottom:0;">A. Chỉ tiêu tuyển dụng:</h4>
+									<p>Tuyển dụng 16 công chức làm việc tại các vị trí như sau:</p>
+									<div class="inner-table">
+										<table class="table">
+										  	<thead>
+										    <tr>
+										      <th scope="col" width="285px">Vị trí việc làm</th>
+										      <th scope="col" width="315px">Chuyên ngành</th>
+										      <th scope="col" width="160px">Số lượng chỉ tiêu</th>
+										      <th class="c-mobile">Yêu cầu</th>
+										    </tr>
+										  </thead>
+										  <tbody>
+										    <tr>
+										      <td>Chuyên viên đối ngoại và hợp tác quốc tế</td>
+										      <td>Quan hệ Quốc tế-Chính trị Quốc tế (QHQT-CTQT)</td>
+										      <td>3</td>
+										      <td>Tốt nghiệp Đại học trở lên trong chuyên ngành phù hợp với vị trí dự tuyển; - Tiếng Anh: có chứng chỉ IELTS (Academic) từ 6.5 điểm trở lên hoặc chứng chỉ TOEFL iBT từ 87 điểm trở lên (còn thời hạn theo quy định của tổ chức cấp chứng chỉ).</td>
+										    </tr>
+										    <tr>
+										      <td>Chuyên viên đối ngoại và hợp tác quốc tế</td>
+										      <td>Quan hệ Quốc tế-Chính trị Quốc tế (QHQT-CTQT)</td>
+										      <td>3</td>
+										      <td>Tốt nghiệp Đại học trở lên trong chuyên ngành phù hợp với vị trí dự tuyển; - Tiếng Anh: có chứng chỉ IELTS (Academic) từ 6.5 điểm trở lên hoặc chứng chỉ TOEFL iBT từ 87 điểm trở lên (còn thời hạn theo quy định của tổ chức cấp chứng chỉ).</td>
+										    </tr>
+										    <tr>
+										      <td>Chuyên viên đối ngoại và hợp tác quốc tế</td>
+										      <td>Quan hệ Quốc tế-Chính trị Quốc tế (QHQT-CTQT)</td>
+										      <td>3</td>
+										      <td>Tốt nghiệp Đại học trở lên trong chuyên ngành phù hợp với vị trí dự tuyển; - Tiếng Anh: có chứng chỉ IELTS (Academic) từ 6.5 điểm trở lên hoặc chứng chỉ TOEFL iBT từ 87 điểm trở lên (còn thời hạn theo quy định của tổ chức cấp chứng chỉ).</td>
+										    </tr>
+										    <tr>
+										      <td>Chuyên viên đối ngoại và hợp tác quốc tế</td>
+										      <td>Quan hệ Quốc tế-Chính trị Quốc tế (QHQT-CTQT)</td>
+										      <td>3</td>
+										      <td>Tốt nghiệp Đại học trở lên trong chuyên ngành phù hợp với vị trí dự tuyển; - Tiếng Anh: có chứng chỉ IELTS (Academic) từ 6.5 điểm trở lên hoặc chứng chỉ TOEFL iBT từ 87 điểm trở lên (còn thời hạn theo quy định của tổ chức cấp chứng chỉ).</td>
+										    </tr>								    		    
+										  </tbody>
+										</table>
+									</div>
+									<h4>B. Điều kiện đăng ký dự tuyển:</h4>
+									<p>I. Các điều kiện chung theo Điều 36, Luật Cán bộ, công chức:<br>1. Người có đủ các điều kiện sau đây được đăng ký dự tuyển:<br>a) Có một quốc tịch là quốc tịch Việt Nam;<br>b) Đủ 18 tuổi trở lên;<br>c) Có đơn dự tuyển; có lý lịch rõ ràng;<br>d) Có văn bằng, chứng chỉ phù hợp;<br>Lưu ý: Căn cứ tiêu chuẩn nghiệp vụ chuyên môn, bổ nhiệm ngạch và xếp lương đối với ngạch công chức: thí sinh dự tuyển các vị trí chuyên viên (nêu tại Mục<br>A. 1-2) nếu được tuyển dụng sẽ phải bổ sung chứng chỉ tin học; thí sinh dự tuyển các vị trí cán sự, thủ quỹ (nêu tại Mục A. 3-4) nếu được tuyển dụng sẽ phải bổ sung chứng chỉ ngoại ngữ và tin học theo tiêu chuẩn vị trí việc làm.<br>e) Có phẩm chất chính trị, đạo đức tốt;<br>g) Đủ sức khoẻ để thực hiện nhiệm vụ.<br>2. Những người sau đây không được đăng ký dự tuyển<br>a) Không cư trú tại Việt Nam;<br>b) Mất hoặc bị hạn chế năng lực hành vi dân sự;<br>c) Đang bị truy cứu trách nhiệm hình sự; đang chấp hành hoặc đã chấp hành xong bản án, quyết định về hình sự của Tòa án mà chưa được xóa án tích; đang</p>
+									<h4>C. Hồ sơ dự tuyển:</h4>
+									<p>Những thí sinh đáp ứng đủ các điều kiện dự tuyển nêu trên cần nộp hồ sơ dự tuyển công chức trực tuyến và trực tiếp cho Bộ Ngoại giao trong ngày sơ tuyển, nhận hồ sơ. Mỗi thí sinh chỉ được đăng ký dự tuyển tại 01 chuyên ngành. Hồ sơ gồm các tài liệu cụ thể như sau:</p>
+									<p>1. Phiếu đăng ký dự tuyển (theo mẫu kèm theo Thông báo). Tại Phiếu đăng ký dự tuyển, người dự tuyển khai đúng và đầy đủ thông tin theo hướng dẫn tại Phiếu, có thể viết tay/đánh máy nhưng phải ký tên trên từng trang của Phiếu đăng ký, phải cam kết những thông tin đã khai trên Phiếu đăng ký là đúng sự thật.</p>
+									<p>2. 02 sơ yếu lý lịch tự thuật, có dán ảnh cỡ 4x6cm và có xác nhận của cơ quan có thẩm quyền</p>
+									<p>3. Bản chụp (bản photo, không yêu cầu chứng thực, công chứng, sao y) văn bằng, chứng chỉ và bảng điểm từ bậc Đại học trở lên (lưu ý những thí sinh tốt nghiệp Đại học, Thạc sĩ, Tiến sĩ ở nước ngoài hoặc một số chương trình liên kết với nước ngoài tại Việt Nam nếu được tuyển dụng sẽ phải bổ sung Giấy chứng nhận văn bằng của Cục Quản lý chất lượng - Bộ Giáo dục và Đào tạo vào thời điểm thông báo kết quả tuyển dụng theo quy định tại Thông tư số 13/2021/TT-BGDĐT ngày 15/4/2021).</p>
+									<p>4. Bản chụp (bản photo, không yêu cầu chứng thực, công chứng, sao y) các bằng khen, giải thưởng, giấy chứng nhận thành tích (nếu có);</p>
+									<p>5. Giấy chứng nhận đối tượng ưu tiên trong tuyển dụng công chức (nếu có) được cơ quan có thẩm quyền chứng thực;</p>
+									<p>6. 04 ảnh cỡ 4x6cm;</p>
+									<p>7. 02 phong bì có dán tem, ghi rõ địa chỉ người nhận (thí sinh dự thi) theo đường bưu điện;</p>
+									<p>8. 01 bản chụp (bản photo, không yêu cầu chứng thực, công chứng, sao y) chứng chỉ ngoại ngữ theo yêu cầu của vị trí dự tuyển.</p>
+									<p>Lưu ý:<br>Bộ Ngoại giao sẽ phối hợp với các cơ sở cấp chứng chỉ thẩm tra, xác minh tính xác thực của các chứng chỉ ngoại ngữ quốc tế. Nếu phát hiện có hành vi sai phạm, các kết quả thi tuyển của thí sinh sẽ bị hủy bỏ.<br>Sau khi có thông báo kết quả, người trúng tuyển sẽ có thời hạn 30 ngày để hoàn thiện hồ sơ tuyển dụng theo quy định hiện hành của Chính phủ và hướng dẫn cụ thể của Bộ Ngoại giao. Trường hợp người trúng tuyển không hoàn thiện đủ hồ sơ tuyển dụng theo quy định hoặc có hành vi gian lận trong việc kê khai Phiếu đăng ký dự tuyển hoặc bị phát hiện sử dụng các văn bằng, chứng chỉ, các tài liệu khác không đúng quy định để tham gia dự tuyển thì Bộ Ngoại giao có thẩm quyền hủy kết quả trúng tuyển và đề nghị xử phạt cá nhân liên quan theo quy định.</p>
+									<p>9. Tất cả thí sinh thực hiện khai thông tin trực tuyến tại đây.<br>Thí sinh sử dụng tài khoản google hoặc địa chỉ gmail để đăng ký tuyển dụng online. Mỗi thí sinh chỉ sử dụng 01 tài khoản google để đăng ký trong suốt kỳ thi</p>
+									<h4>F. Thời gian, địa điểm và lệ phí thi tuyển:</h4>
+									<p>I. Thời gian, địa điểm thi tuyển:<br>I. Thời gian, địa điểm thi tuyển:<br>1. Nhận hồ sơ, thu lệ phí thi và sơ tuyển: Từ 8h30 -11h00 và 14h00-16h00 ngày 07/6/2021 tại Vụ Tổ chức Cán bộ, Bộ Ngoại giao, số 7 Chu Văn An, Ba Đình, Hà Nội và tại Sở Ngoại vụ Thành phố Hồ Chí Minh, số 6 Alexandre de Rhodes, Quận 1, thành phố Hồ Chí Minh.<br>2. Thông báo danh sách thí sinh đủ điều kiện dự thi Vòng 1: dự kiến trung tuần tháng 6/2021.<br>3. Thi Vòng 1: trong tháng 6/2021 (tại Sở Ngoại vụ thành phố Hồ Chí Minh).<br>4. Công bố kết quả Vòng 1 và danh sách thí sinh đủ điều kiện dự thi Vòng 2: dự kiến đầu tháng 7/2021.<br>5. Thi Vòng 2 (thi viết và phỏng vấn): trong tháng 7/2021 (tại Sở Ngoại vụ thành phố Hồ Chí Minh).<br>6. Thông báo kết quả tuyển dụng và dự kiến danh sách người trúng tuyển: trong tháng 7/2021.<br>II. Lệ phí thi tuyển: thực hiện theo quy định của Thông tư số 228/2016/TT-BTC ngày 11/11/2016 của Bộ Tài chính hướng dẫn mức thu, chế độ thu, nộp, quản lý và sử dụng phí dự thi tuyển và phí dự thi nâng ngạch công chức.<br>8. 01 bản chụp (bản photo, không yêu cầu chứng thực, công chứng, sao y) chứng chỉ ngoại ngữ theo yêu cầu của vị trí dự tuyển.<br>Lưu ý:<br>Bộ Ngoại giao sẽ phối hợp với các cơ sở cấp chứng chỉ thẩm tra, xác minh tính xác thực của các chứng chỉ ngoại ngữ quốc tế. Nếu phát hiện có hành vi sai phạm, các kết quả thi tuyển của thí sinh sẽ bị hủy bỏ.<br>Sau khi có thông báo kết quả, người trúng tuyển sẽ có thời hạn 30 ngày để hoàn thiện hồ sơ tuyển dụng theo quy định hiện hành của Chính phủ và hướng dẫn cụ thể của Bộ Ngoại giao. Trường hợp người trúng tuyển không hoàn thiện đủ hồ sơ tuyển dụng theo quy định hoặc có hành vi gian lận trong việc kê khai Phiếu đăng ký dự tuyển hoặc bị phát hiện sử dụng các văn bằng, chứng chỉ, các tài liệu khác không đúng quy định để tham gia dự tuyển thì Bộ Ngoại giao có thẩm quyền hủy kết quả trúng tuyển và đề nghị xử phạt cá nhân liên quan theo quy định.<br>9. Tất cả thí sinh thực hiện khai thông tin trực tuyến tại đây.<br>Thí sinh sử dụng tài khoản google hoặc địa chỉ gmail để đăng ký tuyển dụng online. Mỗi thí sinh chỉ sử dụng 01 tài khoản google để đăng ký trong suốt kỳ thi.<br>Thời hạn khai thông tin: từ ngày có Thông báo tuyển dụng đến hết ngày sơ tuyển - nhận hồ sơ.<br>D. Các môn thi và hình thức thi:<br>Các thí sinh đáp ứng đủ các điều kiện về hồ sơ và sơ tuyển được dự thi. Thi tuyển công chức được thực hiện theo 02 vòng thi như sau:<br>1. Vòng 1: Thi kiểm tra kiến thức và năng lực chung.<br>- Hình thức thi: thi trắc nghiệm trên giấy. <br>- Nội dung thi gồm 03 phần cụ thể như sau:<br>Phần I: Kiến thức chung, 60 câu hỏi hiểu biết chung về hệ thống chính trị, tổ chức, bộ máy của Đảng, Nhà nước, các tổ chức chính trị - xã hội; quản lý hành chính nhà nước; công chức, công vụ và các kiến thức khác về cơ cấu tổ chức, chức năng, nhiệm vụ cụ thể của Bộ Ngoại giao. Thời gian thi 60 phút</p>
+								</div>
+								<div class="verssion">
+									<div class="title_block">File đính kèm</div>
+									<div class="content_download">
+										<div class="box_image_psd"><img src="asset/images/pdf.png" alt=""></div>
+										<div class="name_file_download">
+											<p>Phiếu đăng ký dự tuyển DCC TPHCM</p>
+											<a href="#" class="btn btn_dowmload"><i class="fas fa-download"></i> Tải về</a>
+										</div>
+									</div>
+									<div class="content_download">
+										<div class="box_image_psd"><img src="asset/images/pdf.png" alt=""></div>
+										<div class="name_file_download">
+											<p>Phiếu đăng ký dự tuyển DCC TPHCM</p>
+											<a href="#" class="btn btn_dowmload"><i class="fas fa-download"></i> Tải về</a>
+										</div>
+									</div>
+								</div>
+								<div class="dang_ky_ung_tuyen">
+									<div class="title_form">Đăng ký ứng tuyển</div>
+									<form action="#">
+									  	<div class="form-row">
+									  		<div class="col col-12"><p class="tag_group">Thông tin cơ bản</p></div>
+										    <div class="form-group col-md-6">
+										      <input type="text" class="form-control" id="textName" placeholder="Họ và Tên">
+										    </div>
+										    <div class="form-group col-md-6">
+										      <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Điện thoại">
+										    </div>
+									  	</div>
+									  	<div class="form-row">
+										    <div class="form-group col-md-6">
+										      <input type="email" class="form-control" id="email" placeholder="Email">
+										    </div>
+										    <div class="form-group col-md-6">
+										      <input type="text" class="form-control" id="nameBuss" name="nameBuss" placeholder="Tên công ty">
+										    </div>
+									  	</div>
+									  	<div class="fiel_name_preview">
+									  	<p class="tag_group">Tài liệu đính kèm</p>
+									  	<p class="max-file">(Support doc, docx, pdf, jpg, jpeg, png and no more than 5MB)</p>
+									  	<div id="fileList"></div>
+									  	<input type="file" multiple name="files" id="files" onchange="javascript:updateList()" style="visibility:hidden;" />							  
+										  <div class="form-group-send">
+										  		<label for="files" class="btn">
+										  			<span class="text-left-upload">Tải CV xin việc</span>
+										  			<span class="chonse_lable">Chọn</span>
+										  		</label>										  		
+										    	<button type="submit" class="btn btn-primary">Ứng tuyển</button>
+										    	<script type="text/javascript">
+										    		updateList = function() {
+                                                        var input = document.getElementById('files');
+                                                        var output = document.getElementById('fileList');
+                                                        var children = "";
+													    for (var i = 0; i < input.files.length; ++i) {
+													        children += '<li>' + input.files.item(i).name + '</li>';
+													    }
+													    output.innerHTML = '<ul>'+children+'</ul>';
+													}
+										    	</script>
+										  	</div>
+									  	</div>							  
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer id="footer" class="footer-wrapper">
+			<section class="section-footer">
+				<div class="bg section-bg"></div>
+				<div class="section-conttent container">
+					<div class="wapper_footer_top">
+						<div class="col-1-footer">
+							<div class="logo_footer"><a href="#"><img src="asset/images/logo-footer.png" alt=""></a></div>
+							<div class="text-right_footer">
+								<div class="sub_site">BỘ TÀI NGUYÊN VÀ MÔI TRƯỜNG</div>
+								<div class="main_site">CỤC BIẾN ĐỔI KHÍ HẬU</div>
+								<div class="des_site">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
+							</div>
+						</div>
+						<div class="col-2-footer">
+							<div class="title_widget">Chính sách</div>
+							<ul class="list-item">
+								<li class="item"><a href="#">Chính sách bảo mật</a></li>
+								<li class="item"><a href="#">Chính sách bản quyền</a></li>
+								<li class="item"><a href="#">Trích dẫn nội dung</a></li>
+							</ul>
+						</div>
+						<div class="col-3-footer">
+							<div class="title_widget">LIÊN HỆ</div>
+							<ul class="list-item">
+								<li class="item"><a href="https://goo.gl/maps/g5icchteqNAeGeX69" target="_blank">Add:  Số 10 Tôn Thất Thuyết, Nam Từ Liêm, Hà Nội.</a></li>
+								<li class="item">Tel:  <a href="tel:024 37759430">024 37759430</a> - <a href="tel:024 37759431">024 37759431</a></li>
+								<li class="item"><a href="#">Fax:  +84-24-37759382</a></li>
+								<li class="item"><a href="mailto:Info@dcc.gov.vn">Email:  Info@dcc.gov.vn</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="wapper_bottom_footer">
+						<p class="copy-right">© 2021 Bản quyền thuộc Cục Biến đổi khí hậu    -    Hỗ trợ bởi GIZ Việt Nam</p>
+					</div>
+				</div>
+			</section>
+			<section class="section_line_end">
+				<div class="bg section-bg"></div>
+			</section>
+		</footer>
+		<nav class="navbar navbar-expand-md navbar-light fixed-top custom-menu-mobile">
+		    <div class="mobile_menu">
+		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+		            <i class="fas fa-bars"></i>
+		        </button>
+		        <div class="collapse navbar-collapse bg-light px-3" id="navbarCollapse">
+		            <ul class="navbar-nav mr-auto">
+		            	<li class="html custom html_nav_position_text">
+		            		<div class="block-top-mobile-menu">
+		            			<a href="#"><i class="icon_menu_home_mobile"></i></a>
+		            		</div>
+		            	</li>
+		                <li class="nav-item has-child">
+		                    <a class="nav-link" href="#">Cục biến đổi khí hậu <i class="fas fa-caret-down"></i></a>
+		                    <ul class="nav-mobile-sub">
+		                    	<li class="menu-item"><a href="#">Item 1</a></li>
+		                    	<li class="menu-item"><a href="#">Item 2</a></li>
+		                    	<li class="menu-item"><a href="#">Item 3</a></li>
+		                    	<li class="menu-item"><a href="#">Item 4</a></li>
+		                    </ul>
+		                </li>
+		                <li class="nav-item has-child">
+		                    <a class="nav-link" href="#">Dự án <i class="fas fa-caret-down"></i></a>
+		                    <ul class="nav-mobile-sub">
+		                    	<li class="menu-item"><a href="#">Item 1</a></li>
+		                    	<li class="menu-item"><a href="#">Item 2</a></li>
+		                    	<li class="menu-item"><a href="#">Item 3</a></li>
+		                    	<li class="menu-item"><a href="#">Item 4</a></li>
+		                    </ul>
+		                </li>
+		                <li class="nav-item has-child">
+		                    <a class="nav-link" href="#">Khoa học công nghệ <i class="fas fa-caret-down"></i></a>
+		                    <ul class="nav-mobile-sub">
+		                    	<li class="menu-item"><a href="#">Item 1</a></li>
+		                    	<li class="menu-item"><a href="#">Item 2</a></li>
+		                    	<li class="menu-item"><a href="#">Item 3</a></li>
+		                    	<li class="menu-item"><a href="#">Item 4</a></li>
+		                    </ul>
+		                </li>
+		                <li class="nav-item">
+		                    <a class="nav-link" href="#">Văn bản pháp luật</a>
+		                </li>
+		                <li class="nav-item has-child">
+		                    <a class="nav-link" href="#">Cơ chế tín chỉ chung - JMC <i class="fas fa-caret-down"></i></a>
+		                    <ul class="nav-mobile-sub">
+		                    	<li class="menu-item"><a href="#">Item 1</a></li>
+		                    	<li class="menu-item"><a href="#">Item 2</a></li>
+		                    	<li class="menu-item"><a href="#">Item 3</a></li>
+		                    	<li class="menu-item"><a href="#">Item 4</a></li>
+		                    </ul>
+		                </li>
+		                <li class="nav-item">
+		                    <a class="nav-link" href="#">NDC Việt Nam</a>
+		                </li>
+		            </ul>
+		            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+		            	<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+		        	</button>
+		        </div>
+		    </div>
+		</nav>
+	</div>
+	<div class="overlay_menu"></div>
+	<script src="asset/js/jquery.min.js"></script>
+	<script src="asset/js/bootstrap/popper.min.js"></script>
+	<script src="asset/js/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="asset/js/html5lightbox.js"></script>
+	<script type="text/javascript" src="asset/js/slick/slick.min.js"></script>
+	<script type="text/javascript" src="asset/js/chart.min.js"></script>
+	<script type="text/javascript" src="asset/js/select2.min.js"></script>
+	<script type="text/javascript" src="asset/js/slick-custom.js"></script>
+	<script type="text/javascript" src="asset/js/custom-chart.js"></script>
+	<script type="text/javascript" src="asset/js/myjs.js"></script>
+</body>
+</html>

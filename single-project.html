@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DNC</title>
+	<link rel="stylesheet" href="asset/css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="asset/css/slick/slick-style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="asset/css/select2.min.css">
+	<link rel="stylesheet" href="asset/css/style.css">
+	<link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header id="header">
+			<div class="header-wrapper">
+				<div class="header-main">
+					<div class="header-inner container">
+						<div id="logo">
+							<a href="/Tempalte/NDC/index.html" class="flex-col logo">
+								<img width="325" height="58" src="asset/images/logo.png" class="header_logo header-logo" alt="Công ty NDC">
+							</a>
+						</div>
+						<div class="col-left">
+							<div class="top_menu">
+								<ul class="d-flex justify-content-end nav-menu-contact">
+									<li class="menu-item">
+										<a href="#" class="nav-top-link">
+											Góp ý dự thảo
+										</a>
+									</li>
+									<li class="menu-item">
+										<a href="#" class="nav-top-link">
+											Tuyển dụng
+										</a>
+									</li>
+									<li class="menu-item">
+										<a href="#" class="nav-top-link">
+											Lịch công tác
+										</a>
+									</li>
+									<li class="menu-item">
+										<a href="#" class="nav-top-link">
+											Liên hệ
+										</a>
+									</li>
+									<li class="menu-item language-item">
+										<select class="language" style="width: 100px">
+											<option value="vi">Tiếng Việt</option>
+											<option value="en">Tiếng Anh</option>
+										</select>
+									</li>
+								</ul>
+							</div>
+							<div class="main_menu">
+								<ul class="d-flex justify-content-end header-nav header-nav-main">
+									<li class="menu-item mega-menu">
+										<a href="#" class="nav-top-link">
+											Cục biến đổi khí hậu
+											<i class="fas fa-sort-down"></i>
+										</a>
+										<ul class="sub-menu">
+											<li class="menu-item menu-item-has-children">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="#">Giới thiệu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Chức năng nhiệm vụ</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Cơ cấu tổ chức</a>
+													</li>
+													<li class="menu-item lead">
+														<a href="#">Các phòng chuyên môn</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Giảm nhẹ phát thải khí </a>
+													</li>
+													<li class="menu-item">
+														<a href="#">nhà kính và bảo vệ tầng Ô- dôn</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Kinh tế và Thông tin Biến đổi khí hậu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Thích ứng biến đổi khí hậu Phòng Khoa học - Công nghệ</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Hợp tác quốc tế</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Kế hoạch - Tài chính</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Văn phòng</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item menu-item-has-children">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="/Tempalte/NDC/post-achive.html">Tin Tức</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin hoạt động</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Hội nghị COP các bên tham gia</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">UNFCC</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin Dự án - Hợp tác quốc tế</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin hoạt động các địa phương</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin khoa học công nghệ</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin bảo vệ tầng ô - dôn</a>
+													</li>
+													<li class="menu-item lead">
+														<a href="#">Ấn phẩm</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item menu-item-has-children">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="#">Nghiên cứu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Bản tin ô dôn</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Bản tin biến đổi khí hậu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Sách, ấn phẩm</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tài liệu COP</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tài liệu Hội thảo 24/06/2020</a>
+													</li>
+													<li class="menu-item lead">
+														<a href="#">Thư viện</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Hình ảnh</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Videos</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="/Tempalte/NDC/document-legislation-archive.html">Văn bản pháp luật</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item has-children">
+										<a href="#" class="nav-top-link">
+											Dự án
+											<i class="fas fa-sort-down"></i>
+										</a>
+										<ul class="nav-dropdown">
+											<li class="menu-item">
+												<a href="#">Dự án 1</a>
+											</li>
+											<li class="menu-item">
+												<a href="#">Dự án 2</a>
+											</li>
+											<li class="menu-item">
+												<a href="#">Dự án 3</a>
+											</li>
+											<li class="menu-item">
+												<a href="#">Dự án 4</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item has-children">
+										<a href="#" class="nav-top-link">
+											Khoa học công nghệ
+											<i class="fas fa-sort-down"></i>
+										</a>
+										<ul class="nav-dropdown">
+											<li class="menu-item">
+												<a href="#">Item 1</a>
+											</li>
+											<li class="menu-item">
+												<a href="#">Item 2</a>
+											</li>
+											<li class="menu-item">
+												<a href="#">Item 3</a>
+											</li>
+											<li class="menu-item">
+												<a href="#">Item 4</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item">
+										<a href="/Tempalte/NDC/document-legislation-archive.html" class="nav-top-link">
+											Văn bản pháp luật											
+										</a>
+									</li>
+									<li class="menu-item mega-menu">
+										<a href="#" class="nav-top-link">
+											Cơ chế tín chỉ chung - JMC
+											<i class="fas fa-sort-down"></i>							
+										</a>
+										<ul class="sub-menu">
+											<li class="menu-item menu-item-has-children">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="#">Giới thiệu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Chức năng nhiệm vụ</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Cơ cấu tổ chức</a>
+													</li>
+													<li class="menu-item lead">
+														<a href="#">Các phòng chuyên môn</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Giảm nhẹ phát thải khí </a>
+													</li>
+													<li class="menu-item">
+														<a href="#">nhà kính và bảo vệ tầng Ô- dôn</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Kinh tế và Thông tin Biến đổi khí hậu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Thích ứng biến đổi khí hậu Phòng Khoa học - Công nghệ</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Hợp tác quốc tế</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Phòng Kế hoạch - Tài chính</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Văn phòng</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item menu-item-has-children">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="#">Tin Tức</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin hoạt động</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Hội nghị COP các bên tham gia</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">UNFCC</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin Dự án - Hợp tác quốc tế</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin hoạt động các địa phương</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin khoa học công nghệ</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tin bảo vệ tầng ô - dôn</a>
+													</li>
+													<li class="menu-item lead">
+														<a href="#">Ấn phẩm</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item menu-item-has-children">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="#">Nghiên cứu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Bản tin ô dôn</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Bản tin biến đổi khí hậu</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Sách, ấn phẩm</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tài liệu COP</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Tài liệu Hội thảo 24/06/2020</a>
+													</li>
+													<li class="menu-item lead">
+														<a href="#">Thư viện</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Hình ảnh</a>
+													</li>
+													<li class="menu-item">
+														<a href="#">Videos</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-item">
+												<ul class="sub-menu">
+													<li class="menu-item lead">
+														<a href="/Tempalte/NDC/document-legislation-archive.html">Văn bản pháp luật</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item">
+										<a href="#" class="nav-top-link">
+											NDC Việt Nam
+											<i class="fas fa-sort-down"></i>
+										</a>
+									</li>
+									<li class="menu-item search-item">
+										<a href="#" class="nav-top-link icon-seach">										
+											<i class="fas fa-search"></i>
+										</a>
+										<ul class="nav-dropdown nav-dropdown-search">
+											<li class="header-search-form search-form html relative has-icon">
+												<div class="header-search-form-wrapper">
+													<div class="searchform-wrapper ux-search-box relative is-normal">
+														<form role="search" method="get" class="searchform" action="#">
+															<div class="flex-row relative">
+																<div class="flex-col flex-grow"> 
+																	<input type="search" id="woocommerce-product-search-field-0" class="search-field mb-0" placeholder="Tìm kiếm…" value="" name="s" autocomplete="off">
+																</div>
+																<div class="flex-col"> 
+																	<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0"> 
+																		<i class="fas fa-search"></i>
+																	</button>
+																</div>
+															</div>
+														</form>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- END .header-main -->
+		<main id="main" class="">
+			<div id="content" class="content-area">
+				<section class="section_banner_top project-page">
+					<div class="bg section-bg"></div>
+					<div class="section-content container">
+						<div class="breadcumbs_title col">
+							<h2>Dự án</h2>
+						</div>
+					</div>
+				</section>
+				<div id="content" class="blog-wrapper project-detail blog-single page-wrapper container">
+					<div class="single-project row">
+						<div class="col col-lg-8 col-md-8 col-12 main-list-project">
+							<div class="col-inner">
+								<div class="box wapper-project">								
+									<div class="box-text text-left">
+										<div class="box-text-inner">
+											<h4><a href="#">Văn kiện dự án "Kế hoạch quản lý loại trừ các chất HCFC của Việt Nam giai đoạn II</a></h4>
+											<div class="status">
+												<div class="date">Jun 03, 2021</div>
+												<div class="download_file"><a href="#">Tải xuống file đính kèm</a></div>
+											</div>
+										</div>
+									</div>
+									<div class="box-image">
+										<img src="asset/images/thumb-project.png" alt="" class="attachment-original">
+									</div>
+									<div class="text-editor">
+										<p style="text-align:justify;"><strong>Ngày 16 tháng 6 năm 2017 tại TP. Hồ Chí Minh, Ban Quản lý Dự án “Kế hoạch quản lý loại trừ các chất HCFC của Việt Nam-giai đoạn I”, Cục Biến đổi khí hậu thuộc Bộ Tài nguyên và Môi trường đã chủ trì tổ chức Hội thảo tổng kết, kết thúc Dự án. Dự án do Quỹ Đa phương thi hành Nghị định thư Montreal (MLF) viện trợ không hoàn lại với tổng kinh phí 9.763.820 USD. Ngân hàng Thế giới (WB) là cơ quan quốc tế thực hiện Dự án theo ủy thác của MLF. Bộ Tài nguyên và Môi trường là cơ quan chủ quản Dự án và Cục Biến đổi khí hậu được giao là cơ quan chủ trì, điều phối các hoạt động thực hiện Dự án. Dự án được triển khai trong giai đoạn 2012-2017. Mục tiêu dài hạn của Dự án là hỗ trợ Việt Nam loại trừ hoàn toàn tiêu thụ các chất HCFC theo đúng lộ trình và các quy đổi</strong></p>
+										<p style="text-align:justify;">Nội dung Hội thảo được tóm tắt như sau:</p>
+										<p style="text-align:justify;">Ông Nguyễn Khắc Hiếu, Phó Cục trưởng Cục Biến đổi khí hậu, Giám đốc Ban Quản lý Dự án (giai đoạn I) thay mặt Ban Quản lý Dự án phát biểu khai mạc Hội thảo, nhiệt liệt chào mừng và chân thành cảm ơn các đại biểu đến dự Hội thảo. Ông Nguyễn Khắc Hiếu đã nhấn mạnh ý nghĩa và tầm quan trọng của việc chuyển đổi từ sử dụng công nghệ cũ sang sử dụng công nghệ mới thông qua việc thực hiện Dự án và nêu rõ những kết quả đạt được là nhờ  sự chỉ đạo, phối hợp của  các cơ quan quản lý nhà nước, sự hỗ trợ kịp thời của các tổ chức quốc tế có liên quan và sự tham gia tích cực, hiệu quả của các doanh nghiệp trong quá trình thực hiện Dự án. Ông Nguyễn Khác Hiếu cũng nêu bật một số kết quả chính của Dự án, đó là:</p>
+										<p style="text-align:justify;">- 11 nhà sản xuất bọt PU đã được lựa chọn tham gia Dự án để chuyển đổi công nghệ sản xuất bọt từ HCFC-141b sang cyclopentane và hệ thống nước. 11 doanh nghiệp đã thực hiện các tiểu dự án và chuyển đổi công nghệ, 01 doanh nghiệp không thể thực hiện tiểu dự án do ngừng sản xuất xốp. Đến tháng 5 năm 2017, tất cả 11 doanh nghiệp đều đã hoàn thành việc chuyển đổi thành công. Gần 1.300 tấn HCFC-141b nguyên chất và trộn sẵn trong polyol đã bị loại trừ tại 11 doanh nghiệp này, đây là những doanh nghiệp sử dụng HCFC-141b nhiều nhất, chiếm hơn 25% tổng lượng các chất HCFC-141b trong tiêu thụ polyol trộn sẵn ở Việt</p>
+										<p style="text-align:justify;">- Việc kiểm soát nhập khẩu và xuất khẩu các chất HCFC và HCFC-141b trong polyol trộn sẵn đã được các Cơ quan Hải quan tiến hành một cách chặt chẽ. Hạn ngạch HCFC và hệ thống cấp phép nhập khẩu được thiết </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col col-lg-4 col-md-4 col-12 sidebar-right-project">
+							<div class="inner-col">
+								<div class="widget-category">
+									<div class="title-widget">DANH MỤC</div>
+									<ul class="list-cate-sidebar">
+										<li class="item"><a href="#"><i class="fas fa-caret-right"></i>Tất cả</a></li>
+										<li class="item"><a href="#"><i class="fas fa-caret-right"></i>Tin tức trong nước</a></li>
+										<li class="item"><a href="#"><i class="fas fa-caret-right"></i>Hoạt động địa phương</a></li>
+										<li class="item"><a href="#"><i class="fas fa-caret-right"></i>Dự án - hợp tác quốc tế</a></li>
+										<li class="item"><a href="#"><i class="fas fa-caret-right"></i>Khoa học công nghệ</a></li>
+										<li class="item"><a href="#"><i class="fas fa-caret-right"></i>Bảo vệ tầng Ozone</a></li>
+									</ul>
+								</div>
+								<div class="widget-noibat">
+									<div class="title-widget">Dự án nổi bật</div>
+									<div class="wapper_list_noibat">
+										<div class="box_nb">
+											<div class="image-box">
+												<a href="#"><img src="asset/images/thumb-sidebar.png" alt=""></a>
+											</div>
+											<div class="text-box">Văn kiện dự án “ Kế hoạch quản lý loại trừ các chất HCFC của Việt Nam gian đoạn II</div>
+										</div>
+										<div class="box_nb">
+											<div class="image-box">
+												<a href="#"><img src="asset/images/thumb-sidebar.png" alt=""></a>
+											</div>
+											<div class="text-box">Văn kiện dự án “ Kế hoạch quản lý loại trừ các chất HCFC của Việt Nam gian đoạn II</div>
+										</div>
+										<div class="box_nb">
+											<div class="image-box">
+												<a href="#"><img src="asset/images/thumb-sidebar.png" alt=""></a>
+											</div>
+											<div class="text-box">Văn kiện dự án “ Kế hoạch quản lý loại trừ các chất HCFC của Việt Nam gian đoạn II</div>
+										</div>
+										<div class="box_nb">
+											<div class="image-box">
+												<a href="#"><img src="asset/images/thumb-sidebar.png" alt=""></a>
+											</div>
+											<div class="text-box">Văn kiện dự án “ Kế hoạch quản lý loại trừ các chất HCFC của Việt Nam gian đoạn II</div>
+										</div>
+										<div class="box_nb">
+											<div class="image-box">
+												<a href="#"><img src="asset/images/thumb-sidebar.png" alt=""></a>
+											</div>
+											<div class="text-box">Văn kiện dự án “ Kế hoạch quản lý loại trừ các chất HCFC của Việt Nam gian đoạn II</div>
+										</div>
+										<div class="box_nb">
+											<div class="image-box">
+												<a href="#"><img src="asset/images/thumb-sidebar.png" alt=""></a>
+											</div>
+											<div class="text-box">Văn kiện dự án “ Kế hoạch quản lý loại trừ các chất HCFC của Việt Nam gian đoạn II</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer id="footer" class="footer-wrapper">
+			<section class="section-footer">
+				<div class="bg section-bg"></div>
+				<div class="section-conttent container">
+					<div class="wapper_footer_top">
+						<div class="col-1-footer">
+							<div class="logo_footer"><a href="#"><img src="asset/images/logo-footer.png" alt=""></a></div>
+							<div class="text-right_footer">
+								<div class="sub_site">BỘ TÀI NGUYÊN VÀ MÔI TRƯỜNG</div>
+								<div class="main_site">CỤC BIẾN ĐỔI KHÍ HẬU</div>
+								<div class="des_site">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
+							</div>
+						</div>
+						<div class="col-2-footer">
+							<div class="title_widget">Chính sách</div>
+							<ul class="list-item">
+								<li class="item"><a href="#">Chính sách bảo mật</a></li>
+								<li class="item"><a href="#">Chính sách bản quyền</a></li>
+								<li class="item"><a href="#">Trích dẫn nội dung</a></li>
+							</ul>
+						</div>
+						<div class="col-3-footer">
+							<div class="title_widget">LIÊN HỆ</div>
+							<ul class="list-item">
+								<li class="item"><a href="https://goo.gl/maps/g5icchteqNAeGeX69" target="_blank">Add:  Số 10 Tôn Thất Thuyết, Nam Từ Liêm, Hà Nội.</a></li>
+								<li class="item">Tel:  <a href="tel:024 37759430">024 37759430</a> - <a href="tel:024 37759431">024 37759431</a></li>
+								<li class="item"><a href="#">Fax:  +84-24-37759382</a></li>
+								<li class="item"><a href="mailto:Info@dcc.gov.vn">Email:  Info@dcc.gov.vn</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="wapper_bottom_footer">
+						<p class="copy-right">© 2021 Bản quyền thuộc Cục Biến đổi khí hậu    -    Hỗ trợ bởi GIZ Việt Nam</p>
+					</div>
+				</div>
+			</section>
+			<section class="section_line_end">
+				<div class="bg section-bg"></div>
+			</section>
+		</footer>
+		<nav class="navbar navbar-expand-md navbar-light fixed-top custom-menu-mobile">
+		    <div class="mobile_menu">
+		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+		            <i class="fas fa-bars"></i>
+		        </button>
+		        <div class="collapse navbar-collapse bg-light px-3" id="navbarCollapse">
+		            <ul class="navbar-nav mr-auto">
+		            	<li class="html custom html_nav_position_text">
+		            		<div class="block-top-mobile-menu">
+		            			<a href="#"><i class="icon_menu_home_mobile"></i></a>
+		            		</div>
+		            	</li>
+		                <li class="nav-item has-child">
+		                    <a class="nav-link" href="#">Cục biến đổi khí hậu <i class="fas fa-caret-down"></i></a>
+		                    <ul class="nav-mobile-sub">
+		                    	<li class="menu-item"><a href="#">Item 1</a></li>
+		                    	<li class="menu-item"><a href="#">Item 2</a></li>
+		                    	<li class="menu-item"><a href="#">Item 3</a></li>
+		                    	<li class="menu-item"><a href="#">Item 4</a></li>
+		                    </ul>
+		                </li>
+		                <li class="nav-item has-child">
+		                    <a class="nav-link" href="#">Dự án <i class="fas fa-caret-down"></i></a>
+		                    <ul class="nav-mobile-sub">
+		                    	<li class="menu-item"><a href="#">Item 1</a></li>
+		                    	<li class="menu-item"><a href="#">Item 2</a></li>
+		                    	<li class="menu-item"><a href="#">Item 3</a></li>
+		                    	<li class="menu-item"><a href="#">Item 4</a></li>
+		                    </ul>
+		                </li>
+		                <li class="nav-item has-child">
+		                    <a class="nav-link" href="#">Khoa học công nghệ <i class="fas fa-caret-down"></i></a>
+		                    <ul class="nav-mobile-sub">
+		                    	<li class="menu-item"><a href="#">Item 1</a></li>
+		                    	<li class="menu-item"><a href="#">Item 2</a></li>
+		                    	<li class="menu-item"><a href="#">Item 3</a></li>
+		                    	<li class="menu-item"><a href="#">Item 4</a></li>
+		                    </ul>
+		                </li>
+		                <li class="nav-item">
+		                    <a class="nav-link" href="#">Văn bản pháp luật</a>
+		                </li>
+		                <li class="nav-item has-child">
+		                    <a class="nav-link" href="#">Cơ chế tín chỉ chung - JMC <i class="fas fa-caret-down"></i></a>
+		                    <ul class="nav-mobile-sub">
+		                    	<li class="menu-item"><a href="#">Item 1</a></li>
+		                    	<li class="menu-item"><a href="#">Item 2</a></li>
+		                    	<li class="menu-item"><a href="#">Item 3</a></li>
+		                    	<li class="menu-item"><a href="#">Item 4</a></li>
+		                    </ul>
+		                </li>
+		                <li class="nav-item">
+		                    <a class="nav-link" href="#">NDC Việt Nam</a>
+		                </li>
+		            </ul>
+		            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+		            	<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+		        	</button>
+		        </div>
+		    </div>
+		</nav>
+	</div>
+	<div class="overlay_menu"></div>
+	<script src="asset/js/jquery.min.js"></script>
+	<script src="asset/js/bootstrap/popper.min.js"></script>
+	<script src="asset/js/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="asset/js/html5lightbox.js"></script>
+	<script type="text/javascript" src="asset/js/slick/slick.min.js"></script>
+	<script type="text/javascript" src="asset/js/chart.min.js"></script>
+	<script type="text/javascript" src="asset/js/select2.min.js"></script>
+	<script type="text/javascript" src="asset/js/slick-custom.js"></script>
+	<script type="text/javascript" src="asset/js/custom-chart.js"></script>
+	<script type="text/javascript" src="asset/js/myjs.js"></script>
+</body>
+</html>
